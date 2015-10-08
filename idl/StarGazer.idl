@@ -1,0 +1,17 @@
+#ifndef STARGAZER_IDL_INCLUDED
+#define STARGAZER_IDL_INCLUDED
+
+#include <BasicDataType.idl>
+
+module hagisonic {
+  
+  struct StarGazerMarkerInfo {
+    RTC::Time tm;
+    int markerId;
+    bool mapMode;
+    RTC::Pose3D pose;
+  };
+
+};
+
+#endif
