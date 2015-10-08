@@ -1,3 +1,6 @@
 [submodule "libstargazer"]
 	path = libstargazer
 	url = https://github.com/sugarsweetrobotics/libstargazer.git
+[submodule "libaqua"]
+	path = libaqua
+	url = https://github.com/sugarsweetrobotics/libaqua.git

@@ -1,0 +1,7 @@
+*.pyc
+*~
+*.bak
+*.BAK
+build-*
+*.log
+*.lock

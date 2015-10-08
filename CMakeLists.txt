@@ -16,6 +16,8 @@ CONFIGURE_FILE ("${PROJECT_SOURCE_DIR}/cmake/uninstall_target.cmake.in"
 ADD_CUSTOM_TARGET (uninstall "${CMAKE_COMMAND}" -P
     "${PROJECT_BINARY_DIR}/uninstall_target.cmake")
 
+add_subdirectory(libstargazer)
+
 #option(BUILD_EXAMPLES "Build and install examples" OFF)
 option(BUILD_DOCUMENTATION "Build the documentation" ON)
 #option(BUILD_TESTS "Build the tests" OFF)
