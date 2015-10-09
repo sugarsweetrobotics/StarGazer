@@ -5,6 +5,16 @@
 
 module hagisonic {
   
+  enum SG_MARK_TYPE {
+    SG_MARKTYPE_HLD1S,
+    SG_MARKTYPE_HLD2S,
+    SG_MARKTYPE_HLD3S,
+    SG_MARKTYPE_HLD1L,
+    SG_MARKTYPE_HLD2L,
+    SG_MARKTYPE_HLD3L,
+    SG_MARKTYPE_UNKNOWN
+  }; 
+
   struct StarGazerMarkerInfo {
     RTC::Time tm;
     long markerId;

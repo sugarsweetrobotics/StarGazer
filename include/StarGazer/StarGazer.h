@@ -33,6 +33,9 @@
 
 // </rtc-template>
 
+#include "libstargazer/include/stargazer.h"
+
+
 using namespace RTC;
 using namespace hagisonic;
 
@@ -246,6 +249,11 @@ class StarGazer
    */
   std::string m_port;
 
+  std::string m_markType;
+
+  std::string m_landmarkHeightFix;
+
+  double m_landmarkHeight;
   // </rtc-template>
 
   // DataInPort declaration
@@ -289,6 +297,8 @@ class StarGazer
   
   // </rtc-template>
 
+
+  ::SG_HANDLE m_hSG;
 };
 
 

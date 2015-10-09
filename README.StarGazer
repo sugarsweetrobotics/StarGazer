@@ -12,7 +12,7 @@
 #   --module-desc='Hagisonic Star Gazer RTC' --module-version=1.0.0 --module-vendor=ssr 
 #   --module-category=Sensor --module-comp-type=STATIC 
 #   --module-act-type=PERIODIC --module-max-inst=1 
-#   --config=debug:int:0 --config=port:string:/dev/ttyUSB0 
+#   --config=debug:int:0 --config=port:string:/dev/ttyUSB0 --config=markType:string:HLD1L --config=landmarkHeightFix:std::string:false --config=landmarkHeight:double:1.5 
 #   --outport=markerInfo:hagisonic::StarGazerMarkerInfo 
 
 
@@ -127,6 +127,30 @@ Overview:    Hagisonic's StarGazer sensor RT-Component. This uses
 		                 or /dev/ttyUSB0...
 		Type:            string
 		DefaultValue:     /dev/ttyUSB0
+		Unit:            
+		Range:           
+		Constraint:      
+
+		Name:             markType
+		Description:     
+		Type:            string
+		DefaultValue:     HLD1L
+		Unit:            
+		Range:           
+		Constraint:      
+
+		Name:             landmarkHeightFix
+		Description:     
+		Type:            std::string
+		DefaultValue:     false
+		Unit:            
+		Range:           
+		Constraint:      
+
+		Name:             landmarkHeight
+		Description:     
+		Type:            double
+		DefaultValue:     1.5
 		Unit:            
 		Range:           
 		Constraint:      

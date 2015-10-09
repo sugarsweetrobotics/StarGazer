@@ -108,6 +108,9 @@ Parameter        Data type          Default Value    Effect
 ================ ================== ================ ======
 debug            int                0                
 port             string             /dev/ttyUSB0     Port Name (filename) of serial port connected to StarGazer. Usually, COM1, COM2, or /dev/ttyUSB0...
+markType         string             HLD1L            
+landmarkHeightFix std::string        false            
+landmarkHeight   double             1.5              
 ================ ================== ================ ======
 
 Ports
